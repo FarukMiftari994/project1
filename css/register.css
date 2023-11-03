@@ -2,10 +2,12 @@
   margin: 0%;
   font-family: sans-serif;
 }
+
 body {
   background-image: url(/img/Vitamin-Well-Antioxidant.jpg);
   background-size: cover;
 }
+
 .topnav {
   display: flex;
   background-color: rgba(14, 87, 155, 0.7);
@@ -14,9 +16,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .topnav > div {
   display: flex;
 }
+
 .topnav > div a {
   display: flex;
   color: white;
