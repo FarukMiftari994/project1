@@ -26,79 +26,105 @@
   <body>
     <header>
       <div class="topnav">
-        <a href="index.html">Home</a>
-        <a class="active" href="register.html">Register</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About</a>
+        <div>
+          <a href="index.html">Home</a>
+          <a class="active" href="register.html">Register</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+        </div>
         <h1>Vitamin Well Drinks</h1>
       </div>
       <hr />
     </header>
-    <div id="container">
+    <div class="head-container">
       <div class="container">
-        <h1>Register</h1>
-        <form>
-          <label for="fname">Full name:</label>
-          <input
-            type="text"
-            id="fname"
-            name="fname"
-            placeholder="Enter Full Name"
-          /><br />
-          <label for="uname">Username:</label>
-          <input
-            type="text"
-            id="uname"
-            name="uname"
-            placeholder="Enter Username"
-          /><br />
-          <label for="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter Email"
-          /><br />
-          <label for="password">Password:</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Enter Password"
-          /><br />
-          <label for="date">Birth Date:</label>
-          <input
-            type="date"
-            id="date"
-            name="date"
-            placeholder="Enter Birth Date"
-          />
-          <h4>
-            1. YOUR AGREEMENT <br />
-            By using this Site, you agree to be bound by, and to comply with,
-            these Terms and Conditions. If you do not agree to these Terms and
-            Conditions, please do not use this site. <br />
-            PLEASE NOTE: We reserve the right, at our sole discretion, to
-            change, modify or otherwise alter these Terms and Conditions at any
-            time. Unless otherwise indicated, amendments will become effective
-            immediately. Please review these Terms and Conditions periodically.
-            Your continued use of the Site following the posting of changes
-            and/or modifications will constitute your acceptance of the revised
-            Terms and Conditions and the reasonableness of these standards for
-            notice of changes. For your information, this page was last updated
-            as of the date at the top of these terms and conditions.
-          </h4>
-          <section class="terms">
-            <input type="checkbox" id="terms" />
-            <label for="terms">I agree</label><br />
-          </section>
-          <div class="btn">
-            <input type="button" value="Register" />
+        <h1 class="form-title">Registration</h1>
+        <form action="#">
+          <div class="main-user-info">
+            <div class="user-input-box">
+              <label for="fullName">Full Name</label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Enter Full Name"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter Username"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="phoneNumber">Phone Number</label>
+              <input
+                type="text"
+                id="phoneNumber"
+                name="phoneNumber"
+                placeholder="Enter Phone Number"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="confirmPassword">Confirm Password</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                placeholder="Confirm Password"
+              />
+            </div>
           </div>
+          <div class="gender-details-box">
+            <span class="gender-title">Gender</span>
+            <div class="gender-category">
+              <input type="radio" name="gender" id="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="other" />
+              <label for="other">Other</label>
+              <div class="hr-terms">
+                <hr />
+              </div>
+              <div class="terms">
+                <div>
+                  <a href="terms.html"><p>Terms and Conditions</p></a>
+                </div>
+                <input type="checkbox" />
+                <label for="agree">I Agree</label>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="form-submit-btn">
+            <input type="submit" value="Register" />
+          </div>
+          <div></div>
         </form>
       </div>
     </div>
-
     <!-- Add your site or application content here -->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
@@ -122,11 +148,11 @@
       <div class="footernavbar">
         <p><b>Vitamin Well Drinks &copy 2023</b></p>
         <span class="footer-separator">|</span>
-        <a href="about.html"><b>About</b></a>
+        <a href="index.html"><b>Home</b></a>
         <span class="footer-separator">|</span>
         <a href="contact.html"><b>Contact</b></a>
         <span class="footer-separator">|</span>
-        <a href="register.html"><b>Register</b></a>
+        <a href="about.html"><b>About</b></a>
       </div>
       <hr />
     </footer>

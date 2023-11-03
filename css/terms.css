@@ -3,8 +3,9 @@
   font-family: sans-serif;
 }
 body {
-  background-image: url(/img/nature.jpg);
+  background-image: url(/img/VW-Photo.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .topnav {
   display: flex;
@@ -52,45 +53,46 @@ body {
   padding-top: 10px;
 }
 
-p {
-  padding: 40px 0 40px 0;
-  font-family: sans-serif;
-  font-size: 24px;
-  text-align: center;
-}
-
-body > h1 {
-  padding-top: 40px;
-  font-family: sans-serif;
-  text-align: center;
-}
-
 .p-terms {
   display: flex;
   justify-content: center;
 }
 
-.p-terms > div > p {
+.p-terms > div {
   margin-top: 70px;
-  width: 600px;
-  background-color: rgba(14, 87, 155, 0.7);
+  margin-bottom: 70px;
+  width: 800px;
+  background-color: rgba(5, 9, 12, 0.7);
   max-height: 500px;
-  border-radius: 14px;
-  border: solid 2px;
-  color: white;
+  border: solid 4px;
+  color: rgb(45, 117, 175);
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 15px;
 }
 
-body .terms {
-  background-image: url(/img/crossfit.jpg);
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
-.vwdrinks {
-  text-align: center;
+.form-submit-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-img {
-  padding: 28px;
-  width: 10%;
+.form-submit-btn input {
+  width: 150%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: rgb(209, 209, 209);
+  background: rgba(78, 122, 204, 0.7);
 }
 
 footer {
@@ -118,12 +120,4 @@ footer {
 
 .footer-separator {
   padding: 0 1%;
-}
-form {
-  width: 100%;
-}
-
-input {
-  margin-top: 2%;
-  margin-right: 10%;
 }
