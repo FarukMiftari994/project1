@@ -44,7 +44,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: black;
+  background-color: rgb(5, 2, 2);
   color: white;
 }
 
@@ -91,6 +91,23 @@ body .terms {
 img {
   padding: 28px;
   width: 10%;
+}
+
+.contactus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactus > h1 {
+  padding: 20px;
+}
+
+.contactus > h2 {
+  padding-bottom: 20px;
+}
+.contactus > h3 {
+  padding: 10px;
 }
 
 footer {

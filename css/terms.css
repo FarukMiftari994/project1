@@ -2,6 +2,9 @@
   margin: 0%;
   font-family: sans-serif;
 }
+html {
+  margin-bottom: 0;
+}
 
 body {
   background-image: url(/img/VW-Photo.jpg);
@@ -67,7 +70,7 @@ body {
   margin-bottom: 70px;
   width: 800px;
   background-color: rgba(5, 9, 12, 0.7);
-  max-height: 500px;
+  max-height: 670px;
   border: solid 4px;
   color: rgb(45, 117, 175);
   overflow: scroll;
