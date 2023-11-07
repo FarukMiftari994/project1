@@ -94,23 +94,69 @@ img {
 }
 
 .contactus {
+  min-height: 100vh;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 
-.contactus > h1 {
-  padding: 20px;
+.contactus > a {
+  text-decoration: none;
 }
 
-.contactus > h2 {
-  padding-bottom: 20px;
+.c-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 210px;
+  background-color: rgba(0, 0, 0, 0.484);
+  color: white;
+  cursor: pointer;
 }
-.contactus > h3 {
-  padding: 10px;
+
+.c-box > .fa {
+  margin-top: 50px;
+  font-size: 28px;
+  background-color: rgb(29, 78, 183);
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 70px !important;
+  transition: 0.3s linear;
+  color: white;
+}
+
+.c-box:hover .fa {
+  background: none;
+  transform: scale(1.6);
+}
+
+.c-box > p {
+  font-weight: 300;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: 0.3s linear;
+  max-height: 0;
+}
+
+.c-box:hover p {
+  opacity: 1;
+  max-height: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
+  padding: 0;
   background-color: rgba(14, 87, 155, 0.7);
 }
 .footernavbar {
