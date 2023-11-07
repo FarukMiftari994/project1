@@ -6,6 +6,9 @@
 body {
   background-image: url(/img/Vitamin-Well-Antioxidant.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .topnav {
@@ -37,6 +40,10 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.topnav h1 {
+  margin-right: 10px;
+}
+
 .topnav h1:hover {
   background-color: rgba(14, 87, 155, 0.7);
   color: white;
@@ -55,11 +62,12 @@ body {
 .hr {
   padding-top: 10px;
 }
+
 .head-container {
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 7%;
-  margin-bottom: 7%;
+  height: 100vh;
 }
 
 .container {
@@ -68,7 +76,6 @@ body {
   padding: 28px;
   margin: 0 28px;
   border-radius: 10px;
-  box-shadow: inset -2px 2px 2px white;
 }
 
 .form-title {
@@ -186,6 +193,7 @@ body {
 }
 
 footer {
+  margin-top: auto;
   background-color: rgba(14, 87, 155, 0.7);
 }
 .footernavbar {
